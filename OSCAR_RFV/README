@@ -1,0 +1,72 @@
+
+    (1) Set the environment variable 'MULUL'
+
+            for bash users:
+                $> MULUL=<oscar-basepath>/z/
+                $> export MULUL
+
+
+            for tcsh users:
+                $> setenv  MULUL <oscar-basepath>/z/
+
+                where <oscar-basepath> = the absolute path where the /z/ folder is located
+                   
+
+
+            ** note: don't forget the ending '/' character when setting the 'MULUL' variable
+
+
+
+    (2) Side chain modeling 
+
+            Example:
+            $> oscar pdb_file
+
+            Example:
+            $> oscar -pdb data 
+
+                    A file called 'data' in the running directory contains a list of pdb files.
+
+            
+           By default, a rigid rotamer model is used for side chain modeling (Bioinformatics 2011;
+           27:2913-2914).
+           In case a flexible rotamer modeled is preferred, please use the argument '-flexible'
+           (JCC 2011,32:1680-1686). 
+           Example:  $> oscar pdb_file  -flexible
+
+           
+           
+
+     (3) Protein design 
+
+      Example:  $> oscar -design pdb_file
+
+
+
+
+
+     
+    Notes
+    (A)  oscar -h for more information.
+
+    (B) In cases where only a small part of the protein is  modeled, set the 80th column of the 
+        pdb file of the non-modeled part to 'X' as follows:
+
+            ATOM      1  N   ALA A   1       7.672 -12.002  34.411                         X
+     
+    In protein design calculation, the residue type will not be changed but
+    the side chain conformation will be modeled if the 'X' changes to 'Y'.
+ 
+
+    (C) The polar hydrogen atoms should be added before calculation unless the
+        whole protein is designed or modeled. 
+         
+        We recommend to use REDUCE (JMB 285:1735-47,1999) to add hydrogen atoms to the target protein.
+
+    (D) The upper limit of the size of the  modeled protein is 3000 residues or 30000 atoms.
+
+
+    (E) The program is free only for academic users.
+
+
+

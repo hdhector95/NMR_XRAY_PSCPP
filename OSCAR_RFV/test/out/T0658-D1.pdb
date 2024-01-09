@@ -1,0 +1,223 @@
+OSCAR software version 1.0. The program is free only for academic users.
+The calculated protein: test/T0658-D1.pdb.
+The calculation is based on the soft-sphere model force fields.
+SEED:  104078
+CYCLE  1
+-3956.66
+CYCLE  2
+-4705.07
+CYCLE  3
+-4828.46
+CYCLE  4
+-4883.29
+CYCLE  5
+-4889.71
+CYCLE  6
+-4895.98
+CYCLE  7
+-4903.67
+CYCLE  8
+-4903.37
+CYCLE  9
+-4904.72
+CYCLE  10
+-4905.62
+CYCLE  11
+-4905.81
+CYCLE  12
+-4906.71
+CYCLE  13
+-4907.22
+CYCLE  14
+-4907.25
+CYCLE  15
+-4906.92
+CYCLE  16
+-4907.25
+CYCLE  17
+-4907.25
+CYCLE  18
+-4907.25
+CYCLE  19
+-4907.25
+CYCLE  20
+-4907.25
+CYCLE  21
+-4907.25
+CYCLE  22
+-4907.25
+CYCLE  23
+-4907.25
+CYCLE  24
+-4907.25
+CYCLE  25
+-4907.25
+CYCLE  26
+-4907.25
+CYCLE  27
+-4907.25
+CYCLE  28
+-4907.25
+CYCLE  29
+-4907.25
+CYCLE  30
+-4907.25
+-3.58014 energy_of  20ALA
+-2.2253 energy_of  21ASP
+-4.36337 energy_of  22SER
+-103.618 energy_of  23ILE
+-76.1183 energy_of  24TYR
+-101.929 energy_of  25VAL
+-23.3887 energy_of  26ARG
+-25.0407 energy_of  27GLU
+-14.0388 energy_of  28GLN
+-9.21743 energy_of  29GLN
+-41.3896 energy_of  30ILE
+-10.4449 energy_of  31PRO
+-109.456 energy_of  32ILE
+-34.5359 energy_of  33LEU
+-76.0232 energy_of  34ILE
+-23.3105 energy_of  35ASP
+-27.3756 energy_of  36ARG
+-46.0593 energy_of  37ILE
+-41.5872 energy_of  38ASP
+-47.0436 energy_of  39ASN
+-71.7689 energy_of  40VAL
+-112.714 energy_of  41LEU
+-160.192 energy_of  42TYR
+-32.6134 energy_of  43GLU
+-124.11 energy_of  44MET
+-19.7771 energy_of  45ARG
+-123.875 energy_of  46ILE
+-24.1233 energy_of  47PRO
+-31.5114 energy_of  48ALA
+-19.8825 energy_of  49GLN
+-4.72116 energy_of  50LYS
+9.15594 energy_of  52ASP
+-70.2369 energy_of  53VAL
+-112.023 energy_of  54LEU
+-21.7585 energy_of  55ASN
+-33.9294 energy_of  56GLU
+-114.09 energy_of  57ILE
+-48.7535 energy_of  58THR
+-118.104 energy_of  59ILE
+-26.7196 energy_of  60GLN
+-103.039 energy_of  61ILE
+-11.3404 energy_of  63ASP
+-14.0029 energy_of  64ASN
+-84.4676 energy_of  65VAL
+-29.0646 energy_of  66ASP
+-83.0428 energy_of  67LEU
+-13.8705 energy_of  68SER
+-15.0891 energy_of  69ASP
+-131.972 energy_of  70ILE
+-25.798 energy_of  71GLN
+-27.2079 energy_of  72ALA
+-115.286 energy_of  73ILE
+-45.4967 energy_of  74ARG
+-110.398 energy_of  75LEU
+-76.3438 energy_of  76PHE
+-103.721 energy_of  77TYR
+-13.9645 energy_of  78SER
+-56.0975 energy_of  80VAL
+-27.2252 energy_of  81GLU
+-13.7883 energy_of  82ALA
+-6.73412 energy_of  83PRO
+-0.179961 energy_of  84SER
+-44.0807 energy_of  85ARG
+-0.0190029 energy_of  86LYS
+-10.1923 energy_of  88GLU
+-32.3295 energy_of  89HSD
+-79.9842 energy_of  90PHE
+-9.63112 energy_of  91SER
+-47.281 energy_of  92PRO
+-56.5021 energy_of  93VAL
+-23.7543 energy_of  94THR
+-137.333 energy_of  95TYR
+-86.0131 energy_of  96ILE
+-28.3145 energy_of  97SER
+-3.35829 energy_of  98SER
+-15.0038 energy_of  99HIS
+-40.7675 energy_of  100ILE
+-7.43977 energy_of  101PRO
+-22.2247 energy_of  103ASN
+-39.4696 energy_of  104THR
+-19.889 energy_of  105ARG
+-11.1048 energy_of  106LYS
+-24.8393 energy_of  107ALA
+-67.008 energy_of  108LEU
+-4.19869 energy_of  109GLU
+-1.75912 energy_of  110SER
+-65.7371 energy_of  111TYR
+-17.3474 energy_of  112SER
+-32.5532 energy_of  113VAL
+-22.3498 energy_of  114ARG
+-50.3474 energy_of  115GLN
+-15.2293 energy_of  116ASP
+-32.6333 energy_of  117GLU
+-55.6973 energy_of  118VAL
+-30.2904 energy_of  119THR
+-15.7554 energy_of  120ALA
+-5.11318 energy_of  121PRO
+-74.4206 energy_of  122LEU
+3.14077 energy_of  123SER
+-20.3416 energy_of  124ARG
+-29.5156 energy_of  125THR
+-85.5762 energy_of  126VAL
+-24.8029 energy_of  127LYS
+-111.424 energy_of  128LEU
+-34.4511 energy_of  129THR
+-16.1786 energy_of  130SER
+-11.7553 energy_of  131LYS
+-47.3438 energy_of  132GLN
+-16.0429 energy_of  133PRO
+-57.2841 energy_of  134MET
+-39.9221 energy_of  135LEU
+-11.1003 energy_of  136LYS
+-68.6522 energy_of  138ILE
+-24.7915 energy_of  139ASN
+-153.815 energy_of  140TYR
+-111.829 energy_of  141PHE
+-154.055 energy_of  142TRP
+-108.252 energy_of  143VAL
+-9.12576 energy_of  144SER
+-112.762 energy_of  145ILE
+-35.0964 energy_of  146GLN
+-123.297 energy_of  147MET
+-43.0797 energy_of  148LYS
+-9.59972 energy_of  149PRO
+-11.0184 energy_of  150GLU
+-52.4408 energy_of  151THR
+-8.56344 energy_of  152SER
+-46.027 energy_of  153LEU
+-24.5171 energy_of  154LEU
+-25.8608 energy_of  155ALA
+-31.3955 energy_of  156LYS
+-102.249 energy_of  157VAL
+-20.1014 energy_of  158ALA
+-69.2801 energy_of  159THR
+-35.9707 energy_of  160THR
+-138.553 energy_of  161MET
+-22.3642 energy_of  162PRO
+-9.5289 energy_of  163ASN
+-34.0674 energy_of  164ALA
+-39.0958 energy_of  165GLN
+-102.455 energy_of  166ILE
+-21.4284 energy_of  167ASN
+-2.59385 energy_of  168ASN
+-11.3794 energy_of  169LYS
+-10.9073 energy_of  170PRO
+-67.6462 energy_of  171ILE
+1.67443 energy_of  172ASN
+-102.373 energy_of  173ILE
+-28.9554 energy_of  174THR
+-122.672 energy_of  175TRP
+-22.1769 energy_of  176LYS
+-42.7702 energy_of  178LYS
+-61.0678 energy_of  179VAL
+-0.0876859 energy_of  180ASP
+-14.5374 energy_of  181GLU
+-9.93318 energy_of  182ARG
+-20.713 energy_of  183HIS
+-90.1639 energy_of  184VAL
+

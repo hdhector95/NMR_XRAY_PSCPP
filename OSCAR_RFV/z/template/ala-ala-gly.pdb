@@ -1,0 +1,39 @@
+USER  MOD reduce.3.03.061020 H: found=0, std=0, add=15, rem=0, adj=1
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single :A   1 ALA N   :NH3+   -179:sc=       0   (180deg=-0.00624)
+USER  MOD -----------------------------------------------------------------
+ATOM      1  N   ALA A   1      -4.250  -7.486  -1.831  1.00  0.00           N
+ATOM      2  CA  ALA A   1      -2.801  -7.486  -1.831  1.00  0.00           C
+ATOM      3  C   ALA A   1      -2.278  -6.057  -1.831  1.00  0.00           C
+ATOM      4  O   ALA A   1      -1.385  -5.721  -1.056  1.00  0.00           O
+ATOM      5  CB  ALA A   1      -2.297  -8.207  -3.077  1.00  0.00           C
+ATOM      0 1H   ALA A   1      -4.584  -8.428  -1.814  1.00  0.00           H + new
+ATOM      0 2H   ALA A   1      -4.584  -7.000  -1.023  1.00  0.00           H + new
+ATOM      0 3H   ALA A   1      -4.584  -7.029  -2.656  1.00  0.00           H + new
+ATOM      0  HA  ALA A   1      -2.441  -8.001  -0.928  1.00  0.00           H   new
+ATOM      0 1HB  ALA A   1      -1.197  -8.209  -3.080  1.00  0.00           H   new
+ATOM      0 2HB  ALA A   1      -2.665  -9.244  -3.076  1.00  0.00           H   new
+ATOM      0 3HB  ALA A   1      -2.665  -7.689  -3.975  1.00  0.00           H   new
+ATOM      6  N   ALA A   2      -2.837  -5.216  -2.704  1.00  0.00           N
+ATOM      7  CA  ALA A   2      -2.427  -3.829  -2.802  1.00  0.00           C
+ATOM      8  C   ALA A   2      -2.581  -3.142  -1.453  1.00  0.00           C
+ATOM      9  O   ALA A   2      -1.674  -2.445  -1.003  1.00  0.00           O
+ATOM     10  CB  ALA A   2      -3.297  -3.118  -3.833  1.00  0.00           C
+ATOM      0  H   ALA A   2      -3.563  -5.476  -3.340  1.00  0.00           H   new
+ATOM      0  HA  ALA A   2      -1.372  -3.786  -3.109  1.00  0.00           H   new
+ATOM      0 1HB  ALA A   2      -2.989  -2.065  -3.910  1.00  0.00           H   new
+ATOM      0 2HB  ALA A   2      -3.180  -3.606  -4.812  1.00  0.00           H   new
+ATOM      0 3HB  ALA A   2      -4.351  -3.169  -3.522  1.00  0.00           H   new
+ATOM     11  N   GLY A   3      -3.734  -3.340  -0.810  1.00  0.00           N
+ATOM     12  CA  GLY A   3      -4.002  -2.740   0.482  1.00  0.00           C
+ATOM     13  C   GLY A   3      -2.929  -3.148   1.481  1.00  0.00           C
+ATOM     14  O   GLY A   3      -2.441  -2.256   2.171  1.00  0.00           O
+ATOM     15  OXT GLY A   3      -2.631  -4.340   1.524  1.00  0.00           O
+ATOM      0  H   GLY A   3      -4.480  -3.904  -1.165  1.00  0.00           H   new
+ATOM      0 1HA  GLY A   3      -4.029  -1.644   0.388  1.00  0.00           H   new
+ATOM      0 2HA  GLY A   3      -4.991  -3.057   0.844  1.00  0.00           H   new
+END

@@ -1,0 +1,808 @@
+RESI ALA     0.00000
+GROU
+ATOM N    NH1    -0.35
+ATOM H    H       0.25
+ATOM CA   CH1E    0.10
+GROU
+ATOM CB   CH3E    0.00
+GROU
+ATOM C    C       0.55
+ATOM O    O      -0.55
+BOND N    CA        CA   C         C    +N        C    O         N    H
+BOND CA   CB
+DIHE CA   C    +N   +CA
+IMPH N    -C   CA   H         C    CA   +N   O         CA   N    C    CB
+DONO  H  N
+ACCE O  C
+IC   -C   CA   *N   H      0.0000    0.00  180.00    0.00   0.0000
+IC   -C   N    CA   C      0.0000    0.00  180.00    0.00   0.0000
+IC   N    CA   C    +N     0.0000    0.00  180.00    0.00   0.0000
+IC   +N   CA   *C   O      0.0000    0.00  180.00    0.00   0.0000
+IC   CA   C    +N   +CA    0.0000    0.00  180.00    0.00   0.0000
+IC   N    C    *CA  CB     0.0000    0.00  120.00    0.00   0.0000
+
+RESI ARG     1.00000
+GROU
+ATOM N    NH1    -0.35
+ATOM H    H       0.25
+ATOM CA   CH1E    0.10
+GROU
+ATOM CB   CH2E    0.00
+ATOM CG   CH2E    0.00
+GROU
+ATOM CD   CH2E    0.10
+ATOM NE   NH1    -0.40
+ATOM HE   H       0.30
+ATOM CZ   C       0.50
+GROU
+ATOM NH1  NC2    -0.45
+ATOM HH11 HC      0.35
+ATOM HH12 HC      0.35
+GROU
+ATOM NH2  NC2    -0.45
+ATOM HH21 HC      0.35
+ATOM HH22 HC      0.35
+GROU
+ATOM C    C       0.55
+ATOM O    O      -0.55
+BOND N    CA        CA   C         C    +N        C    O         N    H
+BOND CA   CB        CB   CG        CG   CD        CD   NE        NE   HE
+BOND NE   CZ        CZ   NH1       CZ   NH2       NH1  HH11      NH1  HH12
+BOND NH2  HH21      NH2  HH22
+DIHE CA   C    +N   +CA
+DIHE CD   NE   CZ   NH1       NE   CZ   NH1  HH11
+DIHE NE   CZ   NH2  HH21      NE   CZ   NH1  HH12      NE   CZ   NH2  HH22
+IMPH N    -C   CA   H         C    CA   +N   O         CA   N    C    CB
+IMPH NE   CD   CZ   HE        CZ   NH1  NH2  NE
+DONO  H N
+DONO  HE NE
+DONO  HH11 NH1
+DONO  HH12 NH1
+DONO  HH21 NH2
+DONO  HH22 NH2
+ACCE O C
+IC   -C   CA   *N   H      0.0000    0.00  180.00    0.00   0.0000
+IC   -C   N    CA   C      0.0000    0.00  180.00    0.00   0.0000
+IC   N    CA   C    +N     0.0000    0.00  180.00    0.00   0.0000
+IC   +N   CA   *C   O      0.0000    0.00  180.00    0.00   0.0000
+IC   CA   C    +N   +CA    0.0000    0.00  180.00    0.00   0.0000
+IC   N    C    *CA  CB     0.0000    0.00  120.00    0.00   0.0000
+IC   N    CA   CB   CG     0.0000    0.00  180.00    0.00   0.0000
+IC   CA   CB   CG   CD     0.0000    0.00  180.00    0.00   0.0000
+IC   CB   CG   CD   NE     0.0000    0.00  180.00    0.00   0.0000
+IC   CG   CD   NE   CZ     0.0000    0.00  180.00    0.00   0.0000
+IC   CD   NE   CZ   NH1    0.0000    0.00  180.00    0.00   0.0000
+IC   NH1  NE   *CZ  NH2    0.0000    0.00  180.00    0.00   0.0000
+IC   CD   CZ   *NE  HE     0.0000    0.00  180.00    0.00   0.0000
+IC   NE   CZ   NH1  HH11   0.0000    0.00  180.00    0.00   0.0000
+IC   HH11 CZ   *NH1 HH12   0.0000    0.00  180.00    0.00   0.0000
+IC   NE   CZ   NH2  HH21   0.0000    0.00  180.00    0.00   0.0000
+IC   HH21 CZ   *NH2 HH22   0.0000    0.00  180.00    0.00   0.0000
+
+RESI ASN     0.00000
+GROU
+ATOM N    NH1    -0.35
+ATOM H    H       0.25
+ATOM CA   CH1E    0.10
+GROU
+ATOM CB   CH2E    0.00
+GROU
+ATOM CG   C       0.55
+ATOM OD1  O      -0.55
+GROU
+ATOM ND2  NH2    -0.60
+ATOM HD21 H       0.30
+ATOM HD22 H       0.30
+GROU
+ATOM C    C       0.55
+ATOM O    O      -0.55
+BOND N    CA        CA   C         C    +N        C    O         N    H
+BOND CA   CB        CB   CG        CG   OD1       CG   ND2       ND2  HD21
+BOND ND2  HD22
+DIHE CA   C    +N   +CA
+DIHE CB   CG   ND2  HD21
+IMPH N    -C   CA   H         C    CA   +N   O         CA   N    C    CB
+IMPH CG   OD1  ND2  CB        ND2  HD21 HD22 CG
+DONO  H N
+DONO  HD21 ND2
+DONO  HD22 ND2
+ACCE OD1 CG
+ACCE O C
+IC   -C   CA   *N   H      0.0000    0.00  180.00    0.00   0.0000
+IC   -C   N    CA   C      0.0000    0.00  180.00    0.00   0.0000
+IC   N    CA   C    +N     0.0000    0.00  180.00    0.00   0.0000
+IC   +N   CA   *C   O      0.0000    0.00  180.00    0.00   0.0000
+IC   CA   C    +N   +CA    0.0000    0.00  180.00    0.00   0.0000
+IC   N    C    *CA  CB     0.0000    0.00  120.00    0.00   0.0000
+IC   N    CA   CB   CG     0.0000    0.00  180.00    0.00   0.0000
+IC   CA   CB   CG   OD1    0.0000    0.00  180.00    0.00   0.0000
+IC   OD1  CB   *CG  ND2    0.0000    0.00  180.00    0.00   0.0000
+IC   OD1  CG   ND2  HD21   0.0000    0.00  180.00    0.00   0.0000
+IC   HD21 CG   *ND2 HD22   0.0000    0.00  180.00    0.00   0.0000
+
+RESI ASP    -1.00000
+GROU
+ATOM N    NH1    -0.35
+ATOM H    H       0.25
+ATOM CA   CH1E    0.10
+GROU
+ATOM CB   CH2E   -0.16
+ATOM CG   C       0.36
+ATOM OD1  OC     -0.60
+ATOM OD2  OC     -0.60
+GROU
+ATOM C    C       0.55
+ATOM O    O      -0.55
+BOND N    CA        CA   C         C    +N        C    O         N    H
+BOND CA   CB        CB   CG        CG   OD1       CG   OD2
+DIHE CA   C    +N   +CA
+IMPH N    -C   CA   H         C    CA   +N   O         CA   N    C    CB
+IMPH CG   OD1  OD2  CB
+DONO  H     N
+ACCE OD1  CG
+ACCE OD2  CG
+ACCE O  C
+IC   -C   CA   *N   H      0.0000    0.00  180.00    0.00   0.0000
+IC   -C   N    CA   C      0.0000    0.00  180.00    0.00   0.0000
+IC   N    CA   C    +N     0.0000    0.00  180.00    0.00   0.0000
+IC   +N   CA   *C   O      0.0000    0.00  180.00    0.00   0.0000
+IC   CA   C    +N   +CA    0.0000    0.00  180.00    0.00   0.0000
+IC   N    C    *CA  CB     0.0000    0.00  120.00    0.00   0.0000
+IC   N    CA   CB   CG     0.0000    0.00  180.00    0.00   0.0000
+IC   CA   CB   CG   OD1    0.0000    0.00  180.00    0.00   0.0000
+IC   OD1  CB   *CG  OD2    0.0000    0.00  180.00    0.00   0.0000
+
+RESI CYS     0.00000
+GROU
+ATOM N    NH1    -0.35
+ATOM H    H       0.25
+ATOM CA   CH1E    0.10
+GROU
+ATOM CB   CH2E    0.19
+ATOM SG   SH1E   -0.19
+GROU
+ATOM C    C       0.55
+ATOM O    O      -0.55
+BOND N    CA        CA   C         C    +N        C    O         N    H
+BOND CA   CB        CB   SG
+DIHE CA   C    +N   +CA
+IMPH N    -C   CA   H         C    CA   +N   O         CA   N    C    CB
+DONO  H     N
+ACCE O  C
+IC   -C   CA   *N   H      0.0000    0.00  180.00    0.00   0.0000
+IC   -C   N    CA   C      0.0000    0.00  180.00    0.00   0.0000
+IC   N    CA   C    +N     0.0000    0.00  180.00    0.00   0.0000
+IC   +N   CA   *C   O      0.0000    0.00  180.00    0.00   0.0000
+IC   CA   C    +N   +CA    0.0000    0.00  180.00    0.00   0.0000
+IC   N    C    *CA  CB     0.0000    0.00  120.00    0.00   0.0000
+IC   N    CA   CB   SG     0.0000    0.00  180.00    0.00   0.0000
+
+RESI GLN     0.00000
+GROU
+ATOM N    NH1    -0.35
+ATOM H    H       0.25
+ATOM CA   CH1E    0.10
+GROU
+ATOM CB   CH2E    0.00
+ATOM CG   CH2E    0.00
+GROU
+ATOM CD   C       0.55
+ATOM OE1  O      -0.55
+GROU
+ATOM NE2  NH2    -0.60
+ATOM HE21 H       0.30
+ATOM HE22 H       0.30
+GROU
+ATOM C    C       0.55
+ATOM O    O      -0.55
+BOND N    CA        CA   C         C    +N        C    O         N    H
+BOND CA   CB        CB   CG        CG   CD        CD   OE1       CD   NE2
+BOND NE2  HE21      NE2  HE22
+DIHE CA   C    +N   +CA
+DIHE CG   CD   NE2  HE21
+IMPH N    -C   CA   H         C    CA   +N   O         CA   N    C    CB
+IMPH CD   OE1  NE2  CG        NE2  HE21 HE22 CD
+DONO  H     N
+DONO  HE21  NE2
+DONO  HE22  NE2
+ACCE OE1  CD
+ACCE O  C
+IC   -C   CA   *N   H      0.0000    0.00  180.00    0.00   0.0000
+IC   -C   N    CA   C      0.0000    0.00  180.00    0.00   0.0000
+IC   N    CA   C    +N     0.0000    0.00  180.00    0.00   0.0000
+IC   +N   CA   *C   O      0.0000    0.00  180.00    0.00   0.0000
+IC   CA   C    +N   +CA    0.0000    0.00  180.00    0.00   0.0000
+IC   N    C    *CA  CB     0.0000    0.00  120.00    0.00   0.0000
+IC   N    CA   CB   CG     0.0000    0.00  180.00    0.00   0.0000
+IC   CA   CB   CG   CD     0.0000    0.00  180.00    0.00   0.0000
+IC   CB   CG   CD   OE1    0.0000    0.00  180.00    0.00   0.0000
+IC   OE1  CG   *CD  NE2    0.0000    0.00  180.00    0.00   0.0000
+IC   OE1  CD   NE2  HE21   0.0000    0.00  180.00    0.00   0.0000
+IC   HE21 CD   *NE2 HE22   0.0000    0.00  180.00    0.00   0.0000
+
+RESI GLU    -1.00000
+GROU
+ATOM N    NH1    -0.35
+ATOM H    H       0.25
+ATOM CA   CH1E    0.10
+GROU
+ATOM CB   CH2E    0.00
+GROU
+ATOM CG   CH2E   -0.16
+ATOM CD   C       0.36
+ATOM OE1  OC     -0.60
+ATOM OE2  OC     -0.60
+GROU
+ATOM C    C       0.55
+ATOM O    O      -0.55
+BOND N    CA        CA   C         C    +N        C    O         N    H
+BOND CA   CB        CB   CG        CG   CD        CD   OE1       CD   OE2
+DIHE CA   C    +N   +CA
+IMPH N    -C   CA   H         C    CA   +N   O         CA   N    C    CB
+IMPH CD   OE1  OE2  CG
+DONO  H     N
+ACCE OE1  CD
+ACCE OE2  CD
+ACCE O  C
+IC   -C   CA   *N   H      0.0000    0.00  180.00    0.00   0.0000
+IC   -C   N    CA   C      0.0000    0.00  180.00    0.00   0.0000
+IC   N    CA   C    +N     0.0000    0.00  180.00    0.00   0.0000
+IC   +N   CA   *C   O      0.0000    0.00  180.00    0.00   0.0000
+IC   CA   C    +N   +CA    0.0000    0.00  180.00    0.00   0.0000
+IC   N    C    *CA  CB     0.0000    0.00  120.00    0.00   0.0000
+IC   N    CA   CB   CG     0.0000    0.00  180.00    0.00   0.0000
+IC   CA   CB   CG   CD     0.0000    0.00  180.00    0.00   0.0000
+IC   CB   CG   CD   OE1    0.0000    0.00  180.00    0.00   0.0000
+IC   OE1  CG   *CD  OE2    0.0000    0.00  180.00    0.00   0.0000
+
+RESI GLY     0.00000
+GROU
+ATOM N    NH1    -0.35
+ATOM H    H       0.25
+ATOM CA   CH2E    0.10
+GROU
+ATOM C    C       0.55
+ATOM O    O      -0.55
+BOND N    CA        CA   C         C    +N        C    O         N    H
+DIHE CA   C    +N   +CA
+IMPH N    -C   CA   H         C    CA   +N   O
+DONO  H     N
+ACCE O  C
+IC   -C   CA   *N   H      0.0000    0.00  180.00    0.00   0.0000
+IC   -C   N    CA   C      0.0000    0.00  180.00    0.00   0.0000
+IC   N    CA   C    +N     0.0000    0.00  180.00    0.00   0.0000
+IC   +N   CA   *C   O      0.0000    0.00  180.00    0.00   0.0000
+IC   CA   C    +N   +CA    0.0000    0.00  180.00    0.00   0.0000
+PATC FIRS GLYP
+
+RESI HIS     0.00000		! Rings charges from Del Bene and Cohen
+GROU 				! JACS 100:5285 (1978) Imidazole sto-3g calc.
+ATOM N    NH1    -0.35		! Note that this residue has non-neutral groups.
+ATOM H    H       0.25
+ATOM CA   CH1E    0.10
+GROU
+ATOM CB   CH2E    0.00
+GROUP
+ATOM CG   C       0.10
+ATOM ND1  NH1    -0.40
+ATOM HD1  H       0.30
+GROU
+ATOM CD2  CR1E    0.10
+ATOM NE2  NR     -0.40
+ATOM CE1  CR1E    0.30
+GROU
+ATOM C    C       0.55
+ATOM O    O      -0.55
+BOND N    CA        CA   C         C    +N        C    O         N    H
+BOND CA   CB        CB   CG        CG   ND1       CG   CD2       ND1  HD1
+BOND ND1  CE1       CD2  NE2       CE1  NE2
+DIHE CA   C    +N   +CA
+IMPH N    -C   CA   H         C    CA   +N   O         CA   N    C    CB
+IMPH CG   ND1  CD2  CB        ND1  CG   CE1  HD1       CG   ND1  CE1  NE2
+IMPH ND1  CE1  NE2  CD2       CE1  NE2  CD2  CG        NE2  CD2  CG   ND1
+IMPH CD2  CG   ND1  CE1
+DONO  H     N
+DONO  HD1   ND1
+ACCE NE2
+ACCE O  C
+IC   -C   CA   *N   H      0.0000    0.00  180.00    0.00   0.0000
+IC   -C   N    CA   C      0.0000    0.00  180.00    0.00   0.0000
+IC   N    CA   C    +N     0.0000    0.00  180.00    0.00   0.0000
+IC   +N   CA   *C   O      0.0000    0.00  180.00    0.00   0.0000
+IC   CA   C    +N   +CA    0.0000    0.00  180.00    0.00   0.0000
+IC   N    C    *CA  CB     0.0000    0.00  120.00    0.00   0.0000
+IC   N    CA   CB   CG     0.0000    0.00  180.00    0.00   0.0000
+IC   CA   CB   CG   CD2    0.0000    0.00   90.00    0.00   0.0000
+IC   CD2  CB   *CG  ND1    0.0000    0.00  180.00    0.00   0.0000
+IC   CD2  CG   ND1  CE1    0.0000    0.00    0.00    0.00   0.0000
+IC   ND1  CG   CD2  NE2    0.0000    0.00    0.00    0.00   0.0000
+IC   CE1  CG   *ND1 HD1    0.0000    0.00  180.00    0.00   0.0000
+
+RESI HSD     0.00000		! see HIS above.
+GROUP
+ATOM N    NH1    -0.35
+ATOM H    H       0.25
+ATOM CA   CH1E    0.10
+GROU
+ATOM CB   CH2E    0.00
+GROUP
+ATOM CG   C       0.10
+ATOM ND1  NR     -0.40
+ATOM CE1  CR1E    0.30
+GROU
+ATOM CD2  CR1E    0.10
+ATOM NE2  NH1    -0.40
+ATOM HE2  H       0.30
+GROU
+ATOM C    C       0.55
+ATOM O    O      -0.55
+BOND N    CA        CA   C         C    +N        C    O         N    H
+BOND CA   CB        CB   CG        CG   ND1       CG   CD2       ND1  CE1
+BOND CD2  NE2       CE1  NE2       NE2  HE2
+DIHE CA   C    +N   +CA
+IMPH N    -C   CA   H         C    CA   +N   O         CA   N    C    CB
+IMPH CG   ND1  CD2  CB        NE2  CE1  CD2  HE2       CG   ND1  CE1  NE2
+IMPH ND1  CE1  NE2  CD2       CE1  NE2  CD2  CG        NE2  CD2  CG   ND1
+IMPH CD2  CG   ND1  CE1
+DONO  H     N
+DONO  HE2   NE2
+ACCE ND1
+ACCE O  C
+IC   -C   CA   *N   H      0.0000    0.00  180.00    0.00   0.0000
+IC   -C   N    CA   C      0.0000    0.00  180.00    0.00   0.0000
+IC   N    CA   C    +N     0.0000    0.00  180.00    0.00   0.0000
+IC   +N   CA   *C   O      0.0000    0.00  180.00    0.00   0.0000
+IC   CA   C    +N   +CA    0.0000    0.00  180.00    0.00   0.0000
+IC   N    C    *CA  CB     0.0000    0.00  120.00    0.00   0.0000
+IC   N    CA   CB   CG     0.0000    0.00  180.00    0.00   0.0000
+IC   CA   CB   CG   CD2    0.0000    0.00   90.00    0.00   0.0000
+IC   CD2  CB   *CG  ND1    0.0000    0.00  180.00    0.00   0.0000
+IC   CD2  CG   ND1  CE1    0.0000    0.00    0.00    0.00   0.0000
+IC   ND1  CG   CD2  NE2    0.0000    0.00    0.00    0.00   0.0000
+IC   CE1  CD2  *NE2 HE2    0.0000    0.00  180.00    0.00   0.0000
+
+RESI HSC     1.00000		! Doubly protonated histidine.  Ring charges
+GROU
+ATOM N    NH1    -0.35		! Hayes and Kollman jacs 98:3335 (1976).
+ATOM H    H       0.25
+ATOM CA   CH1E    0.10
+GROU
+ATOM CB   CH2E    0.10
+ATOM CG   C       0.15
+ATOM CD2  CR1E    0.20
+GROU
+ATOM ND1  NH1    -0.30
+ATOM HD1  H       0.35
+GROU
+ATOM CE1  CR1E    0.45
+GROU
+ATOM NE2  NH1    -0.30
+ATOM HE2  H       0.35
+GROU
+ATOM C    C       0.55
+ATOM O    O      -0.55
+BOND N    CA        CA   C         C    +N        C    O         N    H
+BOND CA   CB        CB   CG        CG   ND1       CG   CD2       ND1  HD1
+BOND ND1  CE1       CD2  NE2       CE1  NE2       NE2  HE2
+DIHE CA   C    +N   +CA
+IMPH N    -C   CA   H         C    CA   +N   O         CA   N    C    CB
+IMPH CG   ND1  CD2  CB        ND1  CG   CE1  HD1       CG   ND1  CE1  NE2
+IMPH ND1  CE1  NE2  CD2       CE1  NE2  CD2  CG        NE2  CD2  CG   ND1
+IMPH CD2  CG   ND1  CE1       NE2  CD2  CE1  HE2
+DONO  H     N
+DONO  HD1   ND1
+DONO  HE2   NE2
+ACCE O  C
+IC   -C   CA   *N   H      0.0000    0.00  180.00    0.00   0.0000
+IC   -C   N    CA   C      0.0000    0.00  180.00    0.00   0.0000
+IC   N    CA   C    +N     0.0000    0.00  180.00    0.00   0.0000
+IC   +N   CA   *C   O      0.0000    0.00  180.00    0.00   0.0000
+IC   CA   C    +N   +CA    0.0000    0.00  180.00    0.00   0.0000
+IC   N    C    *CA  CB     0.0000    0.00  120.00    0.00   0.0000
+IC   N    CA   CB   CG     0.0000    0.00  180.00    0.00   0.0000
+IC   CA   CB   CG   CD2    0.0000    0.00   90.00    0.00   0.0000
+IC   CD2  CB   *CG  ND1    0.0000    0.00  180.00    0.00   0.0000
+IC   CD2  CG   ND1  CE1    0.0000    0.00    0.00    0.00   0.0000
+IC   ND1  CG   CD2  NE2    0.0000    0.00    0.00    0.00   0.0000
+IC   CE1  CG   *ND1 HD1    0.0000    0.00  180.00    0.00   0.0000
+IC   CE1  CD2  *NE2 HE2    0.0000    0.00  180.00    0.00   0.0000
+
+RESI ILE     0.00000
+GROU
+ATOM N    NH1    -0.35
+ATOM H    H       0.25
+ATOM CA   CH1E    0.10
+GROU
+ATOM CB   CH1E    0.00
+ATOM CG2  CH3E    0.00
+GROU
+ATOM CG1  CH2E    0.00
+ATOM CD1  CH3E    0.00
+GROU
+ATOM C    C       0.55
+ATOM O    O      -0.55
+BOND N    CA        CA   C         C    +N        C    O         N    H
+BOND CA   CB        CB   CG1       CB   CG2       CG1  CD1
+DIHE CA   C    +N   +CA
+IMPH N    -C   CA   H         C    CA   +N   O         CA   N    C    CB
+IMPH CB   CG1  CG2  CA
+DONO  H     N
+ACCE O  C
+IC   -C   CA   *N   H      0.0000    0.00  180.00    0.00   0.0000
+IC   -C   N    CA   C      0.0000    0.00  180.00    0.00   0.0000
+IC   N    CA   C    +N     0.0000    0.00  180.00    0.00   0.0000
+IC   +N   CA   *C   O      0.0000    0.00  180.00    0.00   0.0000
+IC   CA   C    +N   +CA    0.0000    0.00  180.00    0.00   0.0000
+IC   N    C    *CA  CB     0.0000    0.00  120.00    0.00   0.0000
+IC   N    CA   CB   CG1    0.0000    0.00  180.00    0.00   0.0000
+IC   CA   CB   CG1  CD1    0.0000    0.00  180.00    0.00   0.0000
+IC   CG1  CA   *CB  CG2    0.0000    0.00 -120.00    0.00   0.0000
+
+RESI LEU     0.00000
+GROU
+ATOM N    NH1    -0.35
+ATOM H    H       0.25
+ATOM CA   CH1E    0.10
+GROU
+ATOM CB   CH2E    0.00
+ATOM CG   CH1E    0.00
+ATOM CD1  CH3E    0.00
+ATOM CD2  CH3E    0.00
+GROU
+ATOM C    C       0.55
+ATOM O    O      -0.55
+BOND N    CA        CA   C         C    +N        C    O         N    H
+BOND CA   CB        CB   CG        CG   CD1       CG   CD2
+DIHE CA   C    +N   +CA
+IMPH N    -C   CA   H         C    CA   +N   O         CA   N    C    CB
+IMPH CG   CD2  CD1  CB
+DONO  H     N
+ACCE O  C
+IC   -C   CA   *N   H      0.0000    0.00  180.00    0.00   0.0000
+IC   -C   N    CA   C      0.0000    0.00  180.00    0.00   0.0000
+IC   N    CA   C    +N     0.0000    0.00  180.00    0.00   0.0000
+IC   +N   CA   *C   O      0.0000    0.00  180.00    0.00   0.0000
+IC   CA   C    +N   +CA    0.0000    0.00  180.00    0.00   0.0000
+IC   N    C    *CA  CB     0.0000    0.00  120.00    0.00   0.0000
+IC   N    CA   CB   CG     0.0000    0.00  180.00    0.00   0.0000
+IC   CA   CB   CG   CD1    0.0000    0.00  180.00    0.00   0.0000
+IC   CD1  CB   *CG  CD2    0.0000    0.00  120.00    0.00   0.0000
+
+RESI LYS     1.00000
+GROU
+ATOM N    NH1    -0.35
+ATOM H    H       0.25
+ATOM CA   CH1E    0.10
+GROU
+ATOM CB   CH2E    0.00
+ATOM CG   CH2E    0.00
+ATOM CD   CH2E    0.00
+GROU
+ATOM CE   CH2E    0.25
+ATOM NZ   NH3    -0.30
+ATOM HZ   HC      0.35
+ATOM HZ   HC      0.35
+ATOM HZ   HC      0.35
+GROU
+ATOM C    C       0.55
+ATOM O    O      -0.55
+BOND N    CA        CA   C         C    +N        C    O         N    H
+BOND CA   CB        CB   CG        CG   CD        CD   CE        CE   NZ
+BOND NZ   HZ        NZ   HZ        NZ   HZ
+DIHE CA   C    +N   +CA
+IMPH N    -C   CA   H         C    CA   +N   O         CA   N    C    CB
+DONO  H     N
+DONO  HZ    NZ
+DONO  HZ    NZ
+DONO  HZ    NZ
+ACCE O  C
+IC   -C   CA   *N   H      0.0000    0.00  180.00    0.00   0.0000
+IC   -C   N    CA   C      0.0000    0.00  180.00    0.00   0.0000
+IC   N    CA   C    +N     0.0000    0.00  180.00    0.00   0.0000
+IC   +N   CA   *C   O      0.0000    0.00  180.00    0.00   0.0000
+IC   CA   C    +N   +CA    0.0000    0.00  180.00    0.00   0.0000
+IC   N    C    *CA  CB     0.0000    0.00  120.00    0.00   0.0000
+IC   N    CA   CB   CG     0.0000    0.00  180.00    0.00   0.0000
+IC   CA   CB   CG   CD     0.0000    0.00  180.00    0.00   0.0000
+IC   CB   CG   CD   CE     0.0000    0.00  180.00    0.00   0.0000
+IC   CG   CD   CE   NZ     0.0000    0.00  180.00    0.00   0.0000
+IC   CD   CE   NZ   HZ     0.0000    0.00  180.00    0.00   0.0000
+IC   HZ   CE   *NZ  HZ     0.0000    0.00  120.00    0.00   0.0000
+IC   HZ   CE   *NZ  HZ     0.0000    0.00  120.00    0.00   0.0000
+
+RESI MET     0.00000
+GROU
+ATOM N    NH1    -0.35
+ATOM H    H       0.25
+ATOM CA   CH1E    0.10
+GROU
+ATOM CB   CH2E    0.00
+GROU
+ATOM CG   CH2E    0.06
+ATOM SD   S      -0.12
+ATOM CE   CH3E    0.06
+GROU
+ATOM C    C       0.55
+ATOM O    O      -0.55
+BOND N    CA        CA   C         C    +N        C    O         N    H
+BOND CA   CB        CB   CG        CG   SD        SD   CE
+DIHE CA   C    +N   +CA
+IMPH N    -C   CA   H         C    CA   +N   O         CA   N    C    CB
+DONO  H     N
+ACCE O  C
+IC   -C   CA   *N   H      0.0000    0.00  180.00    0.00   0.0000
+IC   -C   N    CA   C      0.0000    0.00  180.00    0.00   0.0000
+IC   N    CA   C    +N     0.0000    0.00  180.00    0.00   0.0000
+IC   +N   CA   *C   O      0.0000    0.00  180.00    0.00   0.0000
+IC   CA   C    +N   +CA    0.0000    0.00  180.00    0.00   0.0000
+IC   N    C    *CA  CB     0.0000    0.00  120.00    0.00   0.0000
+IC   N    CA   CB   CG     0.0000    0.00  180.00    0.00   0.0000
+IC   CA   CB   CG   SD     0.0000    0.00  180.00    0.00   0.0000
+IC   CB   CG   SD   CE     0.0000    0.00  180.00    0.00   0.0000
+
+RESI PHE     0.00000
+GROU
+ATOM N    NH1    -0.35
+ATOM H    H       0.25
+ATOM CA   CH1E    0.10
+GROU
+ATOM CB   CH2E    0.00
+ATOM CG   C       0.00    CZ
+ATOM CD1  CR1E    0.00    CE2
+ATOM CD2  CR1E    0.00    CE1
+GROU
+ATOM CE1  CR1E    0.00
+ATOM CE2  CR1E    0.00
+ATOM CZ   CR1E    0.00
+GROU
+ATOM C    C       0.55
+ATOM O    O      -0.55
+BOND N    CA        CA   C         C    +N        C    O         N    H
+BOND CA   CB        CB   CG        CG   CD1       CG   CD2       CD1  CE1
+BOND CD2  CE2       CE1  CZ        CE2  CZ
+DIHE CA   C    +N   +CA
+IMPH N    -C   CA   H         C    CA   +N   O         CA   N    C    CB
+IMPH CG   CD1  CE1  CZ        CD1  CE1  CZ   CE2       CE1  CZ   CE2  CD2
+IMPH CZ   CE2  CD2  CG        CE2  CD2  CG   CD1       CD2  CG   CD1  CE1
+IMPH CG   CD1  CD2  CB
+DONO  H     N
+ACCE O  C
+IC   -C   CA   *N   H      0.0000    0.00  180.00    0.00   0.0000
+IC   -C   N    CA   C      0.0000    0.00  180.00    0.00   0.0000
+IC   N    CA   C    +N     0.0000    0.00  180.00    0.00   0.0000
+IC   +N   CA   *C   O      0.0000    0.00  180.00    0.00   0.0000
+IC   CA   C    +N   +CA    0.0000    0.00  180.00    0.00   0.0000
+IC   N    C    *CA  CB     0.0000    0.00  120.00    0.00   0.0000
+IC   N    CA   CB   CG     0.0000    0.00  180.00    0.00   0.0000
+IC   CA   CB   CG   CD1    0.0000    0.00   90.00    0.00   0.0000
+IC   CD1  CB   *CG  CD2    0.0000  120.00  180.00  120.00   0.0000
+IC   CD1  CG   CD2  CE2    0.0000  120.00    0.00  120.00   0.0000
+IC   CD2  CG   CD1  CE1    0.0000  120.00    0.00  120.00   0.0000
+IC   CG   CD1  CE1  CZ     0.0000  120.00    0.00  120.00   0.0000
+
+RESI PRO     0.00000
+GROU
+ATOM N    N      -0.20
+ATOM CD   CH2E    0.10
+ATOM CA   CH1E    0.10
+GROU
+ATOM CB   CH2E    0.00
+ATOM CG   CH2E    0.00
+GROU
+ATOM C    C       0.55
+ATOM O    O      -0.55
+BOND N    CA        CA   C         C    +N        C    O         N    CD
+BOND CA   CB        CB   CG        CG   CD
+DIHE CA   C    +N   +CA
+DIHE N    CA   CB   CG        CA   CB   CG   CD        CB   CG   CD   N
+DIHE CG   CD   N    CA
+IMPH N    CA   CD   -C        C    CA   +N   O         CA   N    C    CB
+ACCE O  C
+IC   -C   CA   *N   CD     0.0000    0.00  180.00    0.00   0.0000
+IC   -C   N    CA   C      0.0000    0.00  -60.00    0.00   0.0000
+IC   N    CA   C    +N     0.0000    0.00  180.00    0.00   0.0000
+IC   +N   CA   *C   O      0.0000    0.00  180.00    0.00   0.0000
+IC   CA   C    +N   +CA    0.0000    0.00  180.00    0.00   0.0000
+IC   C    N    *CA  CB     0.0000    0.00 -120.00    0.00   0.0000
+IC   N    CA   CB   CG     0.0000    0.00    0.00  108.00   0.0000
+PATC FIRS PROP
+
+RESI SER     0.00000
+GROU
+ATOM N    NH1    -0.35
+ATOM H    H       0.25
+ATOM CA   CH1E    0.10
+GROU
+ATOM CB   CH2E    0.25
+ATOM OG   OH1    -0.65
+ATOM HG   H       0.40
+GROU
+ATOM C    C       0.55
+ATOM O    O      -0.55
+BOND N    CA        CA   C         C    +N        C    O         N    H
+BOND CA   CB        CB   OG        OG   HG
+DIHE CA   C    +N   +CA
+IMPH N    -C   CA   H         C    CA   +N   O         CA   N    C    CB
+DONO  H     N
+DONO  HG    OG
+ACCE OG
+ACCE O  C
+IC   -C   CA   *N   H      0.0000    0.00  180.00    0.00   0.0000
+IC   -C   N    CA   C      0.0000    0.00  180.00    0.00   0.0000
+IC   N    CA   C    +N     0.0000    0.00  180.00    0.00   0.0000
+IC   +N   CA   *C   O      0.0000    0.00  180.00    0.00   0.0000
+IC   CA   C    +N   +CA    0.0000    0.00  180.00    0.00   0.0000
+IC   N    C    *CA  CB     0.0000    0.00  120.00    0.00   0.0000
+IC   N    CA   CB   OG     0.0000    0.00  180.00    0.00   0.0000
+IC   CA   CB   OG   HG     0.0000    0.00  180.00    0.00   0.0000
+
+RESI THR     0.00000
+GROU
+ATOM N    NH1    -0.35
+ATOM H    H       0.25
+ATOM CA   CH1E    0.10
+GROU
+ATOM CB   CH1E    0.25
+ATOM OG1  OH1    -0.65
+ATOM HG1  H       0.40
+GROU
+ATOM CG2  CH3E    0.00
+GROU
+ATOM C    C       0.55
+ATOM O    O      -0.55
+BOND N    CA        CA   C         C    +N        C    O         N    H
+BOND CA   CB        CB   OG1       CB   CG2       OG1  HG1
+DIHE CA   C    +N   +CA
+IMPH N    -C   CA   H         C    CA   +N   O         CA   N    C    CB
+IMPH CB   OG1  CG2  CA
+DONO  H     N
+DONO  HG1  OG1
+ACCE OG1
+ACCE O  C
+IC   -C   CA   *N   H      0.0000    0.00  180.00    0.00   0.0000
+IC   -C   N    CA   C      0.0000    0.00  180.00    0.00   0.0000
+IC   N    CA   C    +N     0.0000    0.00  180.00    0.00   0.0000
+IC   +N   CA   *C   O      0.0000    0.00  180.00    0.00   0.0000
+IC   CA   C    +N   +CA    0.0000    0.00  180.00    0.00   0.0000
+IC   N    C    *CA  CB     0.0000    0.00  120.00    0.00   0.0000
+IC   N    CA   CB   OG1    0.0000    0.00  180.00    0.00   0.0000
+IC   OG1  CA   *CB  CG2    0.0000    0.00 -120.00    0.00   0.0000
+IC   CA   CB   OG1  HG1    0.0000    0.00  180.00    0.00   0.0000
+
+RESI TRP     0.00000
+GROU
+ATOM N    NH1    -0.35
+ATOM H    H       0.25
+ATOM CA   CH1E    0.10
+GROU
+ATOM CB   CH2E    0.00
+GROU
+ATOM CG   C      -0.03     CD1  CD2  NE1  CE2  CE3  CZ2  CZ3  CH2
+ATOM CD2  C       0.10     NE1  CE2  CE3  CZ2  CZ3  CH2
+ATOM CE2  C      -0.04     CE3  CZ2  CZ3  CH2
+ATOM CE3  CR1E   -0.03     CZ2  CZ3  CH2
+GROU
+ATOM CD1  CR1E    0.06     CD2  NE1  CE2  CE3  CZ2  CZ3  CH2
+ATOM NE1  NH1    -0.36     CE2  CE3  CZ2  CZ3  CH2
+ATOM HE1  H       0.30
+GROU
+ATOM CZ2  CR1E    0.00     CZ3  CH2
+ATOM CZ3  CR1E    0.00     CH2
+ATOM CH2  CR1E    0.00
+GROU
+ATOM C    C       0.55
+ATOM O    O      -0.55
+BOND N    CA        CA   C         C    +N        C    O         N    H
+BOND CA   CB        CB   CG        CG   CD1       CG   CD2       CD1  NE1
+BOND CD2  CE2       NE1  HE1       NE1  CE2       CD2  CE3       CE2  CZ2
+BOND CE3  CZ3       CZ2  CH2       CZ3  CH2
+! The ring angles are only assigned for the five and six member rings.
+! The angles CG CD2 CE3  and NE1 CE2 CZ2 are left out to avoid conflicts
+! with the histidine angle parameters and to preserve symmetry.
+DIHE CA   C    +N   +CA
+! The following dihedrals span the rings and keep them parallel.
+DIHE CD1  CE2  CD2  CZ3       CD1  CD2  CE2  CH2
+DIHE CZ2  CE2  CD2  CG        CE3  CD2  CE2  NE1
+IMPH N    -C   CA   H         C    CA   +N   O         CA   N    C    CB
+IMPH CG   CD1  CD2  CB        NE1  CD1  CE2  HE1       CD2  CE2  CZ2  CH2
+IMPH CE2  CZ2  CH2  CZ3       CZ2  CH2  CZ3  CE3       CH2  CZ3  CE3  CD2
+IMPH CZ3  CE3  CD2  CE2       CE3  CD2  CE2  CZ2       CG   CD1  NE1  CE2
+IMPH CD1  NE1  CE2  CD2       NE1  CE2  CD2  CG        CE2  CD2  CG   CD1
+IMPH CD2  CG   CD1  NE1
+! These impropers are skipped IMPH CD2  CG   CE3  CE2       CE2  CZ2  NE1  CD2
+! because the rings are kept flat by the proper dihedrals noted above.
+DONO  H     N
+DONO  HE1   NE1
+ACCE O  C
+IC   -C   CA   *N   H      0.0000    0.00  180.00    0.00   0.0000
+IC   -C   N    CA   C      0.0000    0.00  180.00    0.00   0.0000
+IC   N    CA   C    +N     0.0000    0.00  180.00    0.00   0.0000
+IC   +N   CA   *C   O      0.0000    0.00  180.00    0.00   0.0000
+IC   CA   C    +N   +CA    0.0000    0.00  180.00    0.00   0.0000
+IC   N    C    *CA  CB     0.0000    0.00  120.00    0.00   0.0000
+IC   N    CA   CB   CG     0.0000    0.00  180.00    0.00   0.0000
+IC   CA   CB   CG   CD2    0.0000    0.00   90.00  127.45   1.3673
+IC   CD2  CB   *CG  CD1    1.3673  127.45  180.00  121.78   1.3815
+IC   CD1  CG   CD2  CE2    1.3815  110.77    0.00  102.51   1.3551
+IC   CD2  CG   CD1  NE1    1.3673  110.77    0.00  106.30   1.3203
+IC   CE2  CD1  *NE1 HE1    1.3374  108.05  180.00  125.46   0.9802
+IC   CE2  CG   *CD2 CE3    1.3551  102.51  180.00  134.73   1.3728
+IC   CE2  CD2  CE3  CZ3    1.3551  122.76    0.00  115.22   1.3882
+IC   CE3  CD2  CE2  CZ2    1.3728  122.76    0.00  123.56   1.3712
+IC   CD2  CE2  CZ2  CH2    1.3551  123.56    0.00  114.96   1.3877
+
+RESI TYR     0.00000
+GROU
+ATOM N    NH1    -0.35
+ATOM H    H       0.25
+ATOM CA   CH1E    0.10
+GROU
+ATOM CB   CH2E    0.00
+ATOM CG   C       0.00    CZ
+GROU
+ATOM CD1  CR1E    0.00    CE2
+ATOM CE1  CR1E    0.00    CD2
+GROU
+ATOM CD2  CR1E    0.00
+ATOM CE2  CR1E    0.00
+GROU
+ATOM CZ   C       0.25
+ATOM OH   OH1    -0.65
+ATOM HH   H       0.40
+GROU
+ATOM C    C       0.55
+ATOM O    O      -0.55
+BOND N    CA        CA   C         C    +N        C    O         N    H
+BOND CA   CB        CB   CG        CG   CD1       CG   CD2       CD1  CE1
+BOND CD2  CE2       CE1  CZ        CE2  CZ        CZ   OH        OH   HH
+DIHE CA   C    +N   +CA
+IMPH N    -C   CA   H         C    CA   +N   O         CA   N    C    CB
+IMPH CG   CD1  CD2  CB        CZ   CE1  CE2  OH        CG   CD1  CE1  CZ
+IMPH CD1  CE1  CZ   CE2       CE1  CZ   CE2  CD2       CZ   CE2  CD2  CG
+IMPH CE2  CD2  CG   CD1       CD2  CG   CD1  CE1
+DONO  H     N
+DONO  HH    OH
+ACCE OH
+ACCE O  C
+IC   -C   CA   *N   H      0.0000    0.00  180.00    0.00   0.0000
+IC   -C   N    CA   C      0.0000    0.00  180.00    0.00   0.0000
+IC   N    CA   C    +N     0.0000    0.00  180.00    0.00   0.0000
+IC   +N   CA   *C   O      0.0000    0.00  180.00    0.00   0.0000
+IC   CA   C    +N   +CA    0.0000    0.00  180.00    0.00   0.0000
+IC   N    C    *CA  CB     0.0000    0.00  120.00    0.00   0.0000
+IC   N    CA   CB   CG     0.0000    0.00  180.00    0.00   0.0000
+IC   CA   CB   CG   CD1    0.0000    0.00   90.00    0.00   0.0000
+IC   CD1  CB   *CG  CD2    0.0000  120.00  180.00  120.00   0.0000
+IC   CD2  CG   CD1  CE1    0.0000  120.00    0.00  120.00   0.0000
+IC   CD1  CG   CD2  CE2    0.0000  120.00    0.00  120.00   0.0000
+IC   CG   CD1  CE1  CZ     0.0000  120.00    0.00  120.00   0.0000
+IC   CE2  CE1  *CZ  OH     0.0000  120.00  180.00  120.00   0.0000
+IC   CE1  CZ   OH   HH     0.0000  120.00  180.00    0.00   0.0000
+
+RESI VAL     0.00000
+GROU
+ATOM N    NH1    -0.35
+ATOM H    H       0.25
+ATOM CA   CH1E    0.10
+GROU
+ATOM CB   CH1E    0.00
+ATOM CG1  CH3E    0.00
+ATOM CG2  CH3E    0.00
+GROU
+ATOM C    C       0.55
+ATOM O    O      -0.55
+BOND N    CA        CA   C         C    +N        C    O         N    H
+BOND CA   CB        CB   CG1       CB   CG2
+DIHE CA   C    +N   +CA
+IMPH N    -C   CA   H         C    CA   +N   O         CA   N    C    CB
+IMPH CB   CG2  CG1  CA
+DONO  H     N
+ACCE O C
+IC   -C   CA   *N   H      0.0000    0.00  180.00    0.00   0.0000
+IC   -C   N    CA   C      0.0000    0.00  180.00    0.00   0.0000
+IC   N    CA   C    +N     0.0000    0.00  180.00    0.00   0.0000
+IC   +N   CA   *C   O      0.0000    0.00  180.00    0.00   0.0000
+IC   CA   C    +N   +CA    0.0000    0.00  180.00    0.00   0.0000
+IC   N    C    *CA  CB     0.0000    0.00  120.00    0.00   0.0000
+IC   N    CA   CB   CG1    0.0000    0.00  180.00    0.00   0.0000
+IC   CG1  CA   *CB  CG2    0.0000    0.00  120.00    0.00   0.0000

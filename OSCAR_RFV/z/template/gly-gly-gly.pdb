@@ -1,0 +1,33 @@
+USER  MOD reduce.3.03.061020 H: found=0, std=0, add=11, rem=0, adj=1
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single :A   1 GLY N   :NH3+   -179:sc=       0   (180deg=-0.00626)
+USER  MOD -----------------------------------------------------------------
+ATOM      1  N   GLY A   1      -9.720 -18.116  -2.962  1.00  0.00           N
+ATOM      2  CA  GLY A   1      -8.271 -18.116  -2.962  1.00  0.00           C
+ATOM      3  C   GLY A   1      -7.748 -16.687  -2.962  1.00  0.00           C
+ATOM      4  O   GLY A   1      -6.855 -16.351  -2.186  1.00  0.00           O
+ATOM      0 1H   GLY A   1     -10.054 -19.058  -2.945  1.00  0.00           H + new
+ATOM      0 2H   GLY A   1     -10.054 -17.630  -2.154  1.00  0.00           H + new
+ATOM      0 3H   GLY A   1     -10.054 -17.659  -3.787  1.00  0.00           H + new
+ATOM      0 1HA  GLY A   1      -7.896 -18.652  -2.078  1.00  0.00           H   new
+ATOM      0 2HA  GLY A   1      -7.896 -18.652  -3.846  1.00  0.00           H   new
+ATOM      5  N   GLY A   2      -8.307 -15.846  -3.835  1.00  0.00           N
+ATOM      6  CA  GLY A   2      -7.897 -14.460  -3.933  1.00  0.00           C
+ATOM      7  C   GLY A   2      -8.051 -13.772  -2.584  1.00  0.00           C
+ATOM      8  O   GLY A   2      -7.144 -13.075  -2.133  1.00  0.00           O
+ATOM      0  H   GLY A   2      -9.034 -16.106  -4.471  1.00  0.00           H   new
+ATOM      0 1HA  GLY A   2      -6.850 -14.401  -4.266  1.00  0.00           H   new
+ATOM      0 2HA  GLY A   2      -8.505 -13.942  -4.689  1.00  0.00           H   new
+ATOM      9  N   GLY A   3      -9.204 -13.970  -1.940  1.00  0.00           N
+ATOM     10  CA  GLY A   3      -9.472 -13.371  -0.648  1.00  0.00           C
+ATOM     11  C   GLY A   3      -8.399 -13.779   0.351  1.00  0.00           C
+ATOM     12  O   GLY A   3      -7.911 -12.886   1.040  1.00  0.00           O
+ATOM     13  OXT GLY A   3      -8.101 -14.970   0.394  1.00  0.00           O
+ATOM      0  H   GLY A   3      -9.950 -14.534  -2.295  1.00  0.00           H   new
+ATOM      0 1HA  GLY A   3      -9.500 -12.275  -0.741  1.00  0.00           H   new
+ATOM      0 2HA  GLY A   3     -10.461 -13.688  -0.286  1.00  0.00           H   new
+END

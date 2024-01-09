@@ -1,0 +1,43 @@
+USER  MOD reduce.3.03.061020 H: found=0, std=0, add=17, rem=0, adj=1
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single :A   1 GLY N   :NH3+    174:sc=   -2.19!  (180deg=-2.33!)
+USER  MOD -----------------------------------------------------------------
+ATOM      1  N   GLY A   1      -8.026 -16.630  -2.718  1.00  0.00           N
+ATOM      2  CA  GLY A   1      -6.577 -16.630  -2.718  1.00  0.00           C
+ATOM      3  C   GLY A   1      -6.054 -15.201  -2.718  1.00  0.00           C
+ATOM      4  O   GLY A   1      -5.161 -14.865  -1.943  1.00  0.00           O
+ATOM      0 1H   GLY A   1      -8.360 -17.567  -2.817  1.00  0.00           H + new
+ATOM      0 2H   GLY A   1      -8.360 -16.247  -1.857  1.00  0.00           H + new
+ATOM      0 3H   GLY A   1      -8.360 -16.076  -3.481  1.00  0.00           H + new
+ATOM      0 1HA  GLY A   1      -6.202 -17.166  -1.834  1.00  0.00           H   new
+ATOM      0 2HA  GLY A   1      -6.202 -17.166  -3.602  1.00  0.00           H   new
+ATOM      5  N   ALA A   2      -6.613 -14.360  -3.591  1.00  0.00           N
+ATOM      6  CA  ALA A   2      -6.203 -12.974  -3.689  1.00  0.00           C
+ATOM      7  C   ALA A   2      -6.357 -12.286  -2.340  1.00  0.00           C
+ATOM      8  O   ALA A   2      -5.450 -11.589  -1.890  1.00  0.00           O
+ATOM      9  CB  ALA A   2      -7.073 -12.262  -4.720  1.00  0.00           C
+ATOM      0  H   ALA A   2      -7.340 -14.620  -4.227  1.00  0.00           H   new
+ATOM      0  HA  ALA A   2      -5.148 -12.932  -3.996  1.00  0.00           H   new
+ATOM      0 1HB  ALA A   2      -6.764 -11.209  -4.797  1.00  0.00           H   new
+ATOM      0 2HB  ALA A   2      -6.956 -12.750  -5.699  1.00  0.00           H   new
+ATOM      0 3HB  ALA A   2      -8.127 -12.313  -4.409  1.00  0.00           H   new
+ATOM     10  N   PRO A   3      -7.510 -12.484  -1.696  1.00  0.00           N
+ATOM     11  CA  PRO A   3      -7.778 -11.885  -0.405  1.00  0.00           C
+ATOM     12  C   PRO A   3      -6.705 -12.293   0.594  1.00  0.00           C
+ATOM     13  O   PRO A   3      -6.216 -11.400   1.284  1.00  0.00           O
+ATOM     14  OXT PRO A   3      -6.407 -13.484   0.638  1.00  0.00           O
+ATOM     15  CB  PRO A   3      -9.208 -12.206  -0.152  1.00  0.00           C
+ATOM     16  CG  PRO A   3      -9.549 -13.478  -0.890  1.00  0.00           C
+ATOM     17  CD  PRO A   3      -8.745 -13.450  -2.156  1.00  0.00           C
+ATOM      0  HA  PRO A   3      -7.691 -10.791  -0.326  1.00  0.00           H   new
+ATOM      0 1HB  PRO A   3      -9.388 -12.329   0.926  1.00  0.00           H   new
+ATOM      0 2HB  PRO A   3      -9.851 -11.382  -0.493  1.00  0.00           H   new
+ATOM      0 1HG  PRO A   3      -9.301 -14.363  -0.285  1.00  0.00           H   new
+ATOM      0 2HG  PRO A   3     -10.626 -13.530  -1.109  1.00  0.00           H   new
+ATOM      0 1HD  PRO A   3      -8.404 -14.451  -2.458  1.00  0.00           H   new
+ATOM      0 2HD  PRO A   3      -9.310 -13.033  -3.003  1.00  0.00           H   new
+END

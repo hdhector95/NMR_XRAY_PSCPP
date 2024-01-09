@@ -3,12 +3,10 @@
 
 [//]: # (Este repositorio contiene información y manuales relacionados con los algoritmos de empaquetamiento de cadenas laterales de proteínas. En particular, se proporcionan guías detalladas para los siguientes estados del arte:)
 En particular, se proporcionan guías detalladas para los siguientes estados del arte:
-- **SCWRL4:**  en bioinformática, optimiza conformaciones de cadenas laterales proteicas mediante una biblioteca dual de rotámeros (RRM y FRM). Adaptándose a variaciones sutiles, cuantifica la probabilidad de rotámeros utilizando interacciones internas, mejorando la precisión en predicciones de estructuras proteicas.
+- **SCWRL4:**  en biocomputación, optimiza conformaciones de cadenas laterales proteicas mediante una biblioteca dual de rotámeros (RRM y FRM). Adaptándose a variaciones sutiles, cuantifica la probabilidad de rotámeros utilizando interacciones internas, mejorando la precisión en predicciones de estructuras proteicas.
 - **FASPR:** destaca por su rapidez y precisión en el empaquetamiento de cadenas laterales proteicas. Utiliza una función de puntuación optimizada y un algoritmo determinista para ensamblar conformaciones a partir de la biblioteca de rotámeros de Dunbrack, logrando resultados notables.
-- **Oscar-Start:** este método multifacético utiliza técnicas de optimización y bibliotecas de rotámeros, proporcionando una solución precisa y eficiente. El proceso utiliza una biblioteca de rotámeros rígidos para calcular funciones de energía que determinan la puntuación de la conformación, considerando la frecuencia observada de rotámeros en la estructura de esqueleto.
+- **OSCAR-star:** este método multifacético utiliza técnicas de optimización y bibliotecas de rotámeros, proporcionando una solución precisa y eficiente. El proceso utiliza una biblioteca de rotámeros rígidos para calcular funciones de energía que determinan la puntuación de la conformación, considerando la frecuencia observada de rotámeros en la estructura.
 - **Opus-Rota4:** fusiona tres módulos clave: OPUS-RotaNN2, OPUS-RotaCM y OPUS-Fold2. Destaca con una función de entorno local mejorada en OPUS-RotaNN2, inspirada en el método DLPacker, elevando la precisión del modelado de cadenas laterales proteicas. OPUS-RotaCM transforma características para predecir distancias y orientaciones, redefiniendo el modelado de cadenas laterales con innovadores mapas de contacto.
-
-
 
 
 ## Uso de SCWRL4 en Ubuntu 20.04
@@ -72,7 +70,33 @@ Donde `input.pdb` es la direccion del pdb de entrada, `output.pdb` es el direcci
 ./FASPR -i abcd_IN.pdb -o salida.pdb
 ```
 
-## Uso de OSCAR-Start
+## Uso de OSCAR-star
+### Paso 1: Descargar
+
+Descarga el proyecto de OSCAR-star desde [este enlace](http://sysimm.ifrec.osaka-u.ac.jp/OSCAR), o en este repositorio también lo encontrará en la carpeta `OSCAR_RFV`. Luego, abre una terminal y navega al directorio.
+
+```bash
+cd OSCAR_RFV
+```
+
+### Paso 2: Configuración del Entorno
+
+```bash
+MULUL=<oscar-basepath>/z/
+export MULUL
+```
+Asegúrate de reemplazar <oscar-basepath> con la ruta absoluta donde se encuentra la carpeta /z/. No olvides incluir el carácter '/' al final.
+
+#### Paso 3: Uso de OSCAR-star
+Ejecutar para un archivo PDB
+```bash
+./oscar pdb_file
+```
+Ejecutar con un archivo que contiene una lista de PDBs:
+```bash
+./oscar -pdb data
+```
+Donde 'data' es un archivo que contiene una lista de archivos PDB.
 
 ## Uso de OPUS-Rota4 en Ubuntu 20.04
 
@@ -82,7 +106,7 @@ Este proyecto proporciona herramientas para la predicción de ángulos diédrico
 2. **OPUS-RotaCM:** Mide distancia y orientación entre cadenas laterales de residuos distintos.
 3. **OPUS-Fold2:** Guía el modelado de cadenas laterales utilizando las salidas de los módulos anteriores.
 
-## Implementación
+### Implementación
 
 Este proyecto fue implementado en una máquina con las siguientes características:
 
@@ -91,7 +115,7 @@ Este proyecto fue implementado en una máquina con las siguientes característic
 - **Gráfica:** Nvidia 2070-RTX - 8 GB
 - **Sistema Operativo:** Ubuntu 20.04 LTS
 
-## Dependencias Generales
+### Dependencias Generales
 
 - **nvidia-driver-450** (compatible con Cuda 11.0 para Nvidia 2070-RTX)
 - **Cuda** 11.0
@@ -117,21 +141,21 @@ Este proyecto fue implementado en una máquina con las siguientes característic
   - `autotools-dev`
 
 
-## Instrucciones
+### Instrucciones
 
 1. Descarga el proyecto desde la [página oficial](https://github.com/thuxugang/opus_rota4), o en este repositorio también encontrará la versión standalone en la carpeta `opus-rota4`.
 
 2. Abre una terminal y posicionate dentro del proyecto.
     ```bash
-    $ cd opus-rota4
+    cd opus-rota4
     ```
 
 3. **Instalación de un ambiente virtual para Python 3.7:**
     ```bash
-    $ sudo apt install python3-virtualenv python3-venv
-    $ virtualenv -p python3.7 venv-rota4
-    $ source venv-rota4/bin/activate
-    $ pip install -r requirements.txt
+    sudo apt install python3-virtualenv python3-venv
+    virtualenv -p python3.7 venv-rota4
+    source venv-rota4/bin/activate
+    pip install -r requirements.txt
     ```
 
 4. **Instalación del driver nvidia-driver-450 con CUDA 11:**
@@ -141,28 +165,28 @@ Este proyecto fue implementado en una máquina con las siguientes característic
 5. **Compilación de xssp-3.0.10:**
 - Instalamos las dependencias C++
     ```bash
-    $ sudo apt-get install libboost-all-dev
-    $ sudo apt-get install libboost-filesystem-dev
+    sudo apt-get install libboost-all-dev
+    sudo apt-get install libboost-filesystem-dev
     ```
 - Compilamos xssp-3.0.10
     ```bash
-    $ cd OPUS_RotaNN2_and_RotaCM/RotaNN2/mkdssp
-    $ tar zxvf xssp-3.0.10.tar.gz
-    $ cp dssp.cpp xssp-3.0.10/
-    $ cd xssp-3.0.10/
-    $ ./autogen.sh
-    $ ./configure
-    $ make mkdssp
+    cd OPUS_RotaNN2_and_RotaCM/RotaNN2/mkdssp
+    tar zxvf xssp-3.0.10.tar.gz
+    cp dssp.cpp xssp-3.0.10/
+    cd xssp-3.0.10/
+    ./autogen.sh
+    ./configure
+    make mkdssp
     ```
 
 6. **Ejecución de OPUS-RotaNN2_and_RotaCM:**
     - Activa el entorno si no está activado:
     ```bash
-    $ source venv-rota4/bin/activate
+    source venv-rota4/bin/activate
     ```
     - Corre el proyecto:
     ```bash
-    $ python OPUS_RotaNN2_and_RotaCM/run_opus_rota4.py
+    python OPUS_RotaNN2_and_RotaCM/run_opus_rota4.py
     ```
    Esto generá los resultados de OPUS-RitaNN2(*.rotann2) y OPUS-RotaCM(*.rotacm.npz) (dichos archivos se encuentran en OPUS_RotaNN2_and_RotaCM/tmp_files), a partir de los pdbs definidos en  OPUS_RotaNN2_and_RotaCM/data_db, los pdbs se encuentra en opus-rota4/datasets
 
@@ -170,6 +194,6 @@ Este proyecto fue implementado en una máquina con las siguientes característic
 7. **Ejecución de OPUS-Fold2:**
     - Una vez obtenidos los resultados de OPUS-RotaNN2_and_RotaCM:
     ```bash
-    $ python OPUS-Fold2/run_opus_fold2.py
+    python OPUS-Fold2/run_opus_fold2.py
     ```
    Esto generará los resultados optimizados de OPUS-Rota4 (*.rota4) y (*.pdb) (almacenados en OPUS-Fold2/predictions/).
