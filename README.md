@@ -85,7 +85,7 @@ cd OSCAR_RFV
 MULUL=<oscar-basepath>/z/
 export MULUL
 ```
-Asegúrate de reemplazar <oscar-basepath> con la ruta absoluta donde se encuentra la carpeta /z/. No olvides incluir el carácter '/' al final.
+Asegúrate de reemplazar `<oscar-basepath>` con la ruta absoluta donde se encuentra la carpeta /z/. No olvides incluir el carácter '/' al final.
 
 #### Paso 3: Uso de OSCAR-star
 Ejecutar para un archivo PDB
