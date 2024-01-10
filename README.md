@@ -26,7 +26,7 @@ Durante la instalación, se te pedirá que especifiques la dirección de instala
 
 Se solicitará información sobre la licencia. Si deseas obtener una licencia académica, puedes acceder [aquí](http://dunbrack.fccc.edu/lab/scwrl). Si no, simplemente presiona 'Enter' para continuar.
 
-### Paso 3: Uso de SCWRL4
+### Paso 2: Uso de SCWRL4
 
 Una vez instalado, ejecuta SCWRL4 desde la consola con el siguiente comando:
 
@@ -55,7 +55,7 @@ Ejecuta el siguiente comando para compilar FASPR:
 g++ -O3 --fast-math -o FASPR src/*.cpp
 ```
 
-### Paso 2: Uso de FASPR
+### Paso 2: Ejecución de FASPR
 
 Utilice el siguiente comando para ejecutar FASPR:
 
@@ -87,7 +87,7 @@ export MULUL
 ```
 Asegúrate de reemplazar `<oscar-basepath>` con la ruta absoluta donde se encuentra la carpeta /z/. No olvides incluir el carácter '/' al final.
 
-#### Paso 3: Uso de OSCAR-star
+#### Paso 3: Ejecución de OSCAR-star
 Ejecutar para un archivo PDB
 ```bash
 ./oscar pdb_file
@@ -156,7 +156,15 @@ Este proyecto fue implementado en una máquina con las siguientes característic
 
 - Desde la aplicación "Software y Actualizaciones," selecciona el driver nvidia-driver-450.
 
-5. **Compilación de xssp-3.0.10:**
+
+5. **Preparar RotaNN2**
+    - Descomprime `RotaNN2/`.
+    ```bash
+    cd OPUS_RotaNN2_and_RotaCM
+    cat RotaNN2.tar.gz.part-* | tar -xzvf -
+    ```
+   
+6. **Compilación de xssp-3.0.10:**
 - Instalamos las dependencias C++
     ```bash
     sudo apt-get install libboost-all-dev
@@ -173,7 +181,7 @@ Este proyecto fue implementado en una máquina con las siguientes característic
     make mkdssp
     ```
 
-6. **Ejecución de OPUS-RotaNN2_and_RotaCM:**
+7. **Ejecución de OPUS-RotaNN2_and_RotaCM:**
     - Activa el entorno si no está activado:
     ```bash
     source venv-rota4/bin/activate
@@ -185,7 +193,7 @@ Este proyecto fue implementado en una máquina con las siguientes característic
    Esto generá los resultados de OPUS-RitaNN2(*.rotann2) y OPUS-RotaCM(*.rotacm.npz) (dichos archivos se encuentran en OPUS_RotaNN2_and_RotaCM/tmp_files), a partir de los pdbs definidos en  OPUS_RotaNN2_and_RotaCM/data_db, los pdbs se encuentra en opus-rota4/datasets
 
 
-7. **Ejecución de OPUS-Fold2:**
+8. **Ejecución de OPUS-Fold2:**
     - Una vez obtenidos los resultados de OPUS-RotaNN2_and_RotaCM:
     ```bash
     python OPUS-Fold2/run_opus_fold2.py
