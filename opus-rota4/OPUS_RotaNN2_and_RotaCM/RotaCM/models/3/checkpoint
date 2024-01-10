@@ -1,0 +1,2 @@
+model_checkpoint_path: "rota_cm_mlp_model_weight"
+all_model_checkpoint_paths: "rota_cm_mlp_model_weight"
