@@ -1,0 +1,12 @@
+numpy==1.19.5
+pickle5==0.0.12
+biopython==1.79
+Keras-Preprocessing==1.1.2
+tensorflow==2.4.0
+tensorboard==2.8.0
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.1
+tensorflow==2.4.0
+tensorflow-addons==0.15.0
+tensorflow-estimator==2.4.0
+termcolor==1.1.0
