@@ -73,7 +73,7 @@ Donde `input.pdb` es la direccion del pdb de entrada, `output.pdb` es el direcci
 ## Uso de OSCAR-star
 ### Paso 1: Descargar
 
-Descarga el proyecto de OSCAR-star desde [este enlace](http://sysimm.ifrec.osaka-u.ac.jp/OSCAR), o en este repositorio también lo encontrará en la carpeta `OSCAR_RFV`. Luego, abre una terminal y navega al directorio.
+Descarga el proyecto de OSCAR-star desde la [página oficial](http://sysimm.ifrec.osaka-u.ac.jp/OSCAR), [enlace alternativo](https://figshare.com/articles/software/OSCAR-star/24983013) , o en este repositorio también lo encontrará en la carpeta `OSCAR_RFV`. Luego, abre una terminal y navega al directorio.
 
 ```bash
 cd OSCAR_RFV
